@@ -103,6 +103,9 @@ setup(
             'glip.configs.*'
         ],
     ),
+    package_data={
+        '': ['*.py', '*.yaml']
+    },
     cmdclass={
         'install': CustomInstallCommand,
         'build_ext': CustomBuildExtCommand,
