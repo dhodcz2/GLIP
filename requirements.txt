@@ -1,0 +1,16 @@
+einops
+shapely
+timm
+yacs
+tensorboardX
+ftfy
+prettytable
+pymongo
+torch
+transformers
+inflect
+nltk
+matplotlib
+
+pycocotools @ git+ssh://git@github.com/cocodataset/cocoapi.git@8c9bcc3cf640524c4c20a9c40e89cb6a2f2fa0e9#subdirectory=PythonAPI
+
