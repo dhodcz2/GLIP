@@ -95,7 +95,12 @@ setup(
     include_package_data=True,
     install_requires=install_requires,
     packages=find_packages(
-        include=['glip', 'glip.*'],
+        include=[
+            'glop',
+            'glip.*',
+            'glip.maskrcnn_benchmark.*',
+            'glip.tools.*',
+        ],
         exclude=("configs", "tests",)
     ),
     cmdclass={
