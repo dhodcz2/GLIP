@@ -100,6 +100,7 @@ setup(
             'glip.*',
             'glip.maskrcnn_benchmark.*',
             'glip.tools.*',
+            'glip.configs.*'
         ],
     ),
     cmdclass={
