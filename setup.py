@@ -101,7 +101,6 @@ setup(
             'glip.maskrcnn_benchmark.*',
             'glip.tools.*',
         ],
-        exclude=("configs", "tests",)
     ),
     cmdclass={
         'install': CustomInstallCommand,
