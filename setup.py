@@ -96,7 +96,7 @@ setup(
     install_requires=install_requires,
     packages=find_packages(
         include=[
-            'glop',
+            'glip',
             'glip.*',
             'glip.maskrcnn_benchmark.*',
             'glip.tools.*',
